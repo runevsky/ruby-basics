@@ -12,7 +12,7 @@ height = gets.to_i
 
 ideal_weight = (height - 110) * 1.15
 if ideal weight >= 0
-puts "#{name}, ваш идеальный вес #{ideal_weight.round(1)} кг."
+puts "#{name}, ваш идеальный вес #{ideal_weight} кг."
 else
 puts "#{name}, ваш вес уже оптимальный."
 end
