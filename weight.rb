@@ -11,7 +11,7 @@ puts "Введите свой рост?"
 height = gets.to_i
 
 ideal_weight = (height - 110) * 1.15
-if ideal weight >= 0
+if ideal_weight >= 0
 puts "#{name}, ваш идеальный вес #{ideal_weight} кг."
 else
 puts "#{name}, ваш вес уже оптимальный."
